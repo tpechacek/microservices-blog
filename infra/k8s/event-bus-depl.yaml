@@ -15,7 +15,6 @@ spec:
       containers:
         - name: event-bus
           image: tpechacek/event-bus
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

@@ -15,7 +15,6 @@ spec:
       containers:
         - name: comments
           image: tpechacek/comments
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

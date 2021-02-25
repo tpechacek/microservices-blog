@@ -15,7 +15,6 @@ spec:
       containers:
         - name: moderation
           image: tpechacek/moderation
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
